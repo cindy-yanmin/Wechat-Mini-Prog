@@ -1,4 +1,4 @@
-# Wechat-Mini-Program that helps with daily bakery cash closing
+# Wechat-Mini-Program
 
 Read in user inputs from the wechat mini program
 
