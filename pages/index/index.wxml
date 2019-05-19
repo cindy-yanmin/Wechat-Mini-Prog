@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="top">
+    <view class ="inner1"><image class = "icon" src = "../src/icon.jpg" mode = "cover"></image></view>
+    <view class ="inner2"><text class="txt">Iris3 {{info}}</text></view>
+  </view>
+
+  <form bindsubmit = "onSubmit">
+
+  <text>\nNet Sale 税前营业额：</text>
+  <input name = "sale" type = 'digit' class='txt'></input>
+  <text>Gift Card Sale 礼品卡充值：</text>
+  <input name = "giftIn" type = 'digit' class='txt'></input>
+  <text>Gift Card Used 礼品卡使用：</text>
+  <input name = "gift" type = 'digit' class='txt'></input>
+  <text>Loyalty Card Sale 会员卡使用：</text>
+  <input name = "loyalty" type = 'digit' class='txt'></input>
+  <text>Batch Reports 信用卡收入：</text>
+  <input name = "credit" type = 'digit' class='txt'></input>
+  <text>Number of Orders 总订单数：</text>
+  <input name = "order" type = 'number' class='txt'></input>
+  <text>Working Hours 总工作时：</text>
+  <input name = "hour" type = 'digit' class='txt'></input>
+  <text>Wechat/Alipay 微信/支付宝收入：</text>
+  <input name = "outside" placeholder='optional' type = 'digit' class='txt'></input>
+  <text>Petty Cash 门市现金支出：</text>
+  <input name = "petty" placeholder='optional' type = 'digit' class='txt'></input>
+  
+  <text class = "head">{{msg}}</text>
+  <button form-type = "submit">GENERATE</button>
+  <text>\n\n</text>
+  </form>
+  
+</view>

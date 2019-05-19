@@ -1,0 +1,5 @@
+/* pages/result/result.wxss */
+.head {
+  color: #ff6600;
+  font-weight: bold;
+}

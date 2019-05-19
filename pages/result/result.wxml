@@ -1,0 +1,26 @@
+<!--pages/result/result.wxml-->
+<view class="container">
+  <text class = "head" >IRIS TEA & BAKERY INC\n\n</text>
+
+  <text>Net Sale 税前营业额：{{sale}}
+  Gift Card Sale 礼品卡充值：{{giftIn}}
+  Daily Revenue 当日营业额：{{revenue}}
+  Gift Card Used 礼品卡使用：{{gift}}
+  Loyalty Card Sale 会员卡使用：{{loyalty}}
+  Batch Reports 信用卡收入：{{credit}}
+  Wechat/Alipay 微信/支付宝：{{outside}}
+  Online Order 网购收入：0
+  Cash Sale 现金收入：{{cashSale}}
+  Refund 当日现金退款：0
+  Petty Cash 门市现金支出：{{petty}}
+  Cash in Envelope 实收金额：{{cash}}
+  Discrepancy 误差金额：╮(╯▽╰)╭
+  Number of Guests 来客数：{{order}}
+  Average 单笔消费：{{average}}
+  Working Hours 总工时：{{hour}}
+  Productivity 生产力：{{productivity}}</text>
+
+  <text class = 'head'>{{warn}}</text>
+  <button bindtouchend='getTotal'>TOTAL (For Night Shift)</button>
+  
+</view>

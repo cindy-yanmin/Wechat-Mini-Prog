@@ -1,0 +1,30 @@
+/**index.wxss**/
+.top {
+  display:inline;
+  text-align:center;
+}
+.inner1{
+  float:left;
+}
+.inner2{
+  float:left;
+  margin:20px;
+}
+
+.icon {
+  float:left;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.txt {
+  color: #aaa;
+  font-weight: bold;
+}
+
+.head {
+  color: #ff6600;
+  font-weight: bold;
+}
