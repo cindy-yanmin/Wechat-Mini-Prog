@@ -1,4 +1,4 @@
-# Wechat-Mini-Program
+# Wechat-Mini-Prog
 
 Read in user inputs from the wechat mini program
 
